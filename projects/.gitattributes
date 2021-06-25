@@ -1,0 +1,2 @@
+Violet_Sunset_Mac filter=lfs diff=lfs merge=lfs -text
+Violet_Sunset_PC filter=lfs diff=lfs merge=lfs -text
