@@ -1,8 +1,11 @@
-function convert(expression) {
+function convert(n) {
     let stack = []
     let postfix = "";
+    let expression = evaluateFunc(n);
 
-    let input = expression.match(/[^\d()]+|[\d.]+/g);
+    let input = expression.split(/(?=[-+*/()^])|(?<=[^-+*/^][-+*/^])|(?<=[()])/);
+    console.log(input);
+
     for (let i=0; i<input.length; i++) {
         let n = input[i];
 
@@ -43,6 +46,28 @@ function convert(expression) {
     }
     return postfix;
 }
+
+function evaluateFunc(n) {
+    let funcList = [/sin\([-+]?[0-9]*\.?[0-9]+\)/gi, /cos\([-+]?[0-9]*\.?[0-9]+\)/gi, /tan\([-+]?[0-9]*\.?[0-9]+\)/gi,
+        /sqrt\([-+]?[0-9]*\.?[0-9]+\)/gi, /floor\([-+]?[0-9]*\.?[0-9]+\)/gi, /ceil\([-+]?[0-9]*\.?[0-9]+\)/gi,
+        /log\([-+]?[0-9]*\.?[0-9]+\)/gi, /log10\([-+]?[0-9]*\.?[0-9]+\)/gi, /log2\([-+]?[0-9]*\.?[0-9]+\)/gi,
+        /abs\([-+]?[0-9]*\.?[0-9]+\)/gi];
+
+    for (let i = 0; i<funcList.length; i++) {
+        let stringList = n.match(funcList[i]);
+        console.log(stringList);
+        if (stringList != null) {
+            for(let j = 0; j<stringList.length; j++) {
+                let farray = stringList[j].split(/\(|\)/);
+
+                let f = new Function("x", "return Math." + farray[0] + "(x)");
+                n=n.replace(stringList[j], f(farray[1]));
+            }
+        }
+    }
+    return n;
+}
+
 
 //checks whether string is a valid operator
 function isOperator(n) {
