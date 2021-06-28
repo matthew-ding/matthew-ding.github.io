@@ -13,6 +13,28 @@
             max-width: 100%;
             max-height: 100%;
         }
+        #toc_container {
+            background: #f9f9f9 none repeat scroll 0 0;
+            border: 1px solid #aaa;
+            display: table;
+            font-size: 95%;
+            margin-bottom: 1em;
+            padding: 20px;
+            width: auto;
+        }
+
+        #toc_container li {
+            padding: 5px 10px !important;
+        }
+
+        .toc_title {
+            font-weight: 700;
+            text-align: center;
+        }
+
+        #toc_container li, #toc_container ul, #toc_container ul li{
+            list-style: outside none none !important;
+        }
     </style>
     <script type="text/javascript" src="infix.js"></script>
     <script type="text/javascript" src="postfix.js"></script>
@@ -30,8 +52,18 @@
         <h1 class="w3-center">Projects</h1>
     </header>
 
+    <div class="w3-card" id="toc_container">
+        <p class="toc_title">Project List</p>
+        <ul class="toc_list">
+            <li><a href="#visual_novel">1. Visual Novel</a></li>
+            <li><a href="#calculator">2. Calculator</a></li>
+            <li><a href="#primes">3. MIT PRIMES</a></li>
+            <li><a href="#mandelbrot">4. Mandelbrot Set</a></li>
+        </ul>
+    </div>
+
     <!-- Visual Novel -->
-    <div class = "w3-container">
+    <div class = "w3-container" id="visual_novel">
         <h2 class="w3-justify">Dreaming of a Violet Sunset: A Visual Novel</h2>
         <p>Mac Download</p>
         <a href="macgame.zip" download="Violet_Sunset_Mac">
@@ -49,11 +81,12 @@
     <br><br>
 
     <!-- Calculator -->
-    <div class = "w3-container">
+    <div class = "w3-container" id="calculator">
          <h2 class="w3-justify">Calculator App</h2>
         <p>Enter a mathematical expression, then click submit to calculate its value.</p>
         <p>Supported operations/functions: +, -, *, /, ^, (x), sin(x), cos(x), tan(x), sqrt(x), floor(x), ceil(x),
         log(x) (NATURAL), log10(x), log2(x), abs(x)</p>
+        <p>Note: nested functions not yet supported.</p>
         <form id="frm1" action="/action_page.php">
           Enter expression: <input type="text" name="expression"><br><br>
           <input type="button" onclick="myFunction()" value="Submit">
@@ -86,13 +119,28 @@
     <br><br>
 
     <!-- PRIMES -->
-    <div class = "w3-container">
+    <div class = "w3-container" id="primes">
         <h2 class="w3-justify">MIT PRIMES Research</h2>
-        <p>Coming soon.</p>
+        <p>PRIMES Application: <a href="https://github.com/matthew-ding/primes-application"
+                                  target="_blank"><i class="fa fa-github"></i> Link</a>
+        <br>
+        <p>PRIMES 2020 Project: <a href="https://github.com/matthew-ding/primes-project-2020"
+                                   target="_blank"><i class="fa fa-github"></i> Link</a>
+        <br>
+        <p>PRIMES 2021 Project: <a href="https://github.com/matthew-ding/primes-project-2021"
+                                   target="_blank"><i class="fa fa-github"></i> Link</a>
     </div>
+    <br><br>
+
+    <!-- Mandelbrot Set -->
+    <div class = "w3-container" id="mandelbrot">
+        <h2 class="w3-justify">Mandelbrot Set Visualization</h2>
+        <p>COMING SOON</p>
+    </div>
+    <br><br>
 
     <!-- Footer -->
-    <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <footer class="w3-container w3-padding-32 w3-center w3-black w3-xlarge">
         <a href="mailto:matthewding@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
         <a href="https://www.facebook.com/matthewding2/" target="_blank"><i class="fa fa-facebook-official"></i></a>
         <a href="https://twitter.com/MatthewDing1" target="_blank"><i class="fa fa-twitter"></i></a>
