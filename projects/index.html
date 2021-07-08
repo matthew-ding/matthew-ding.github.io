@@ -35,6 +35,18 @@
         #toc_container li, #toc_container ul, #toc_container ul li{
             list-style: outside none none !important;
         }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .flex-child {
+            flex: 1;
+        }
+
+        .flex-child:first-child {
+            margin-right: 20px;
+        }
     </style>
     <script type="text/javascript" src="infix.js"></script>
     <script type="text/javascript" src="postfix.js"></script>
@@ -64,14 +76,23 @@
     <!-- Visual Novel -->
     <div class = "w3-container" id="visual_novel">
         <h2 class="w3-justify">Dreaming of a Violet Sunset: A Visual Novel</h2>
-        <p>Mac Download</p>
-        <a href="macgame.zip" download="Violet_Sunset_Mac">
-            <i class="fa fa-download" aria-hidden="true"></i>
-        </a>
-        <p>PC Download</p>
-        <a href="pcgame.zip" download="Violet_Sunset_PC">
-            <i class="fa fa-download" aria-hidden="true"></i>
-        </a>
+        <div class="flex-container">
+
+            <div class="flex-child">
+                <p>Mac Download</p>
+                <a href="macgame.zip" download="Violet_Sunset_Mac">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="flex-child">
+                <p>PC Download</p>
+                <a href="pcgame.zip" download="Violet_Sunset_PC">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <br>
         <div>
             <img src="capstone.png" alt="In-game Image">
         </div>
@@ -121,13 +142,24 @@
     <div class = "w3-container" id="primes">
         <h2 class="w3-justify">MIT PRIMES Research</h2>
         <p>PRIMES Application: <a href="https://github.com/matthew-ding/primes-application"
-                                  target="_blank"><i class="fa fa-github"></i> Link</a>
-        <br>
+                                  target="_blank"><i class="fa fa-github"></i> Github Link </a></p>
         <p>PRIMES 2020 Project: <a href="https://github.com/matthew-ding/primes-project-2020"
-                                   target="_blank"><i class="fa fa-github"></i> Link</a>
-        <br>
+                                   target="_blank"><i class="fa fa-github"></i> Github Link </a>
+                                <a href="https://arxiv.org/abs/2106.14312"
+                                   target="_blank"><i class="fa fa-file"></i> ArXiv Paper Link </a></p>
         <p>PRIMES 2021 Project: <a href="https://github.com/matthew-ding/primes-project-2021"
-                                   target="_blank"><i class="fa fa-github"></i> Link</a>
+                                   target="_blank"><i class="fa fa-github"></i> Github Link </a>
+                                <a href="https://arxiv.org/abs/2010.05098"
+                                   target="_blank"><i class="fa fa-file"></i> ArXiv Paper Link </a>
+                                <a href="https://math.mit.edu/research/highschool/primes/materials/2021/Ding.pdf"
+                                   target="_blank"><i class="fa fa-file"></i> PRIMES Paper Link </a></p>
+        <div class="w3-card-4" style="width: 580px">
+            <img src="blurb.png" alt="Paper blurb">
+        </div>
+        <i style="font-size:10px">From the MIT PRIMES website
+        (<a href="https://math.mit.edu/research/highschool/primes/papers.php"
+            style="">https://math.mit.edu/research/highschool/primes/papers.php</a>)</i>
+
     </div>
     <br><br>
 
