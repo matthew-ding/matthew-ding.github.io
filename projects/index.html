@@ -60,128 +60,136 @@
     <script type="text/javascript" src="postfix.js"></script>
 </head>
 <body>
-<!-- Header -->
-<nav class="w3-bar w3-black">
-    <a href="../" class="w3-button w3-bar-item">Home</a>
-    <a href="../projects/" class="w3-button w3-bar-item">Projects</a>
-    <a href="../album/" class="w3-button w3-bar-item">Photo Album</a>
-    <a href="../about/" class="w3-button w3-bar-item">About</a>
-</nav>
+    <!-- Header -->
+    <nav class="w3-bar w3-black">
+        <a href="../" class="w3-button w3-bar-item">Home</a>
+        <a href="../projects/" class="w3-button w3-bar-item">Projects</a>
+        <a href="../blog/" class="w3-button w3-bar-item">Blog</a>
+        <a href="../album/" class="w3-button w3-bar-item">Photo Album</a>
+        <a href="../about/" class="w3-button w3-bar-item">About</a>
+    </nav>
 
-<header class="w3-container w3-blue">
-    <h1 class="w3-center">Projects</h1>
-</header>
+    <header class="w3-container w3-blue">
+        <h1 class="w3-center">Projects</h1>
+    </header>
 
-<div class="w3-card" id="toc_container">
-    <p class="toc_title">Project List</p>
-    <ul class="toc_list">
-        <li><a href="#visual_novel">1. Visual Novel</a></li>
-        <li><a href="#calculator">2. Calculator</a></li>
-        <li><a href="#primes">3. MIT PRIMES</a></li>
-    </ul>
-</div>
-
-<!-- Visual Novel -->
-<div class="w3-container" id="visual_novel">
-    <h2 class="w3-center">Dreaming of a Violet Sunset: A Visual Novel</h2>
-    <div class="flex-container">
-        <div class="flex-child">
-            <p>Mac Download</p>
-            <a href="macgame.zip" download="Violet_Sunset_Mac">
-                <i class="fa fa-download" aria-hidden="true"></i>
-            </a>
-        </div>
-
-        <div class="flex-child">
-            <p>PC Download</p>
-            <a href="pcgame.zip" download="Violet_Sunset_PC">
-                <i class="fa fa-download" aria-hidden="true"></i>
-            </a>
-        </div>
-    </div>
-    <br>
-    <div class="w3-card-4">
-        <img src="capstone.png" alt="In-game Image">
-        <div class="w3-container w3-center">
-            <p>In-game image</p>
-        </div>
+    <div class="w3-card" id="toc_container">
+        <p class="toc_title">Project List</p>
+        <ul class="toc_list">
+            <li><a href="#primes">1. MIT PRIMES</a></li>
+            <li><a href="#visual_novel">2. Visual Novel</a></li>
+            <li><a href="#calculator">3. Calculator</a></li>
+        </ul>
     </div>
 
-</div>
-<br><br>
+    <!-- PRIMES -->
+    <div class="w3-container" id="primes">
+        <h2 class="w3-center">MIT PRIMES Research</h2>
+        <p>PRIMES Application: <a href="https://github.com/matthew-ding/primes-application"
+                                  target="_blank"><i class="fa fa-github">&nbsp;</i>Github Link (Solutions)</a><br>
+                                <a href="https://github.com/matthew-ding/primes-application"
+                                  target="_blank"><i class="fa fa-file">&nbsp;</i>Math Problem Set</a>
+                                <a href="https://math.mit.edu/research/highschool/primes/materials/2020/entpro20.pdf"
+                                  target="_blank"><i class="fa fa-file">&nbsp;</i>CS Problem Set</a></p>
+        <p>PRIMES 2020 Project: <a href="https://math.mit.edu/research/highschool/primes/materials/2020/CSproblems2020.pdf"
+                                   target="_blank"><i class="fa fa-github">&nbsp;</i>Github Link</a>
+            <a href="https://arxiv.org/abs/2010.05098"
+               target="_blank"><i class="fa fa-file">&nbsp;</i>ArXiv Paper Link</a></p>
+        <p>PRIMES 2021 Project: <a href="https://github.com/matthew-ding/primes-project-2021"
+                                   target="_blank"><i class="fa fa-github">&nbsp;</i>Github Link</a>
+            <a href="https://arxiv.org/abs/2106.14312"
+               target="_blank"><i class="fa fa-file">&nbsp;</i>ArXiv Paper Link</a><br>
+            <a href="https://math.mit.edu/research/highschool/primes/materials/2021/Ding.pdf"
+               target="_blank"><i class="fa fa-file">&nbsp;</i>PRIMES Paper Link</a></p>
+        <div class="w3-card-4">
+            <img src="blurb.png" alt="Paper blurb">
+            <div class="w3-container w3-center">
+                <p style="font-size:10px; font-style:italic">From the MIT PRIMES website<br>
+                    (<a href="https://math.mit.edu/research/highschool/primes/papers.php"
+                    >https://math.mit.edu/research/highschool/primes/papers.php</a>)</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
 
-<!-- Calculator -->
-<div class="w3-container" id="calculator">
-    <h2 class="w3-center">Calculator App</h2>
-    <p>Enter a mathematical expression, then click submit to calculate its value.</p>
-    <p>Supported operations/functions: +, -, *, /, ^, (x), sin(x), cos(x), tan(x), sqrt(x), floor(x), ceil(x),
-        log(x) (NATURAL), log10(x), log2(x), abs(x)</p>
-    <p>Note: nested functions not yet supported.</p>
-    <form id="frm1" action="/action_page.php">
-        Enter expression: <input type="text" name="expression"><br><br>
-        <input type="button" onclick="myFunction()" value="Submit">
-    </form>
-    <p id="result">Answer: </p>
 
-    <script>
-        function myFunction() {
-            let x = document.getElementById("frm1");
-            let text = x.elements[0].value.replace(/\s+/g, '');
-            document.getElementById("result").innerHTML = text;
+    <!-- Visual Novel -->
+    <div class="w3-container" id="visual_novel">
+        <h2 class="w3-center">Dreaming of a Violet Sunset:<br>
+            A Visual Novel</h2>
+        <div class="flex-container">
+            <div class="flex-child">
+                <p>Mac Download</p>
+                <a href="macgame.zip" download="Violet_Sunset_Mac">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+            </div>
 
-            try {
-                //infix to postfix
-                let postfix = convert(text);
+            <div class="flex-child">
+                <p>PC Download</p>
+                <a href="pcgame.zip" download="Violet_Sunset_PC">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="w3-card-4">
+            <img src="capstone.png" alt="In-game Image">
+            <div class="w3-container w3-center">
+                <p>In-game image</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
 
-                //output value
-                let answer = evaluate(postfix).toString();
 
-                document.getElementById("result").innerHTML = "Answer: " + answer;
-            } catch (e) {
-                //error output
-                document.getElementById("result").innerHTML = "Invalid Input";
+    <!-- Calculator -->
+    <div class="w3-container" id="calculator">
+        <h2 class="w3-center">Calculator App</h2>
+        <p>Enter a mathematical expression, then click submit to calculate its value.</p>
+        <p>Supported operations/functions: +, -, *, /, ^, (x), sin(x), cos(x), tan(x), sqrt(x), floor(x), ceil(x),
+            log(x) (NATURAL), log10(x), log2(x), abs(x)</p>
+        <p>Note: nested functions not yet supported.</p>
+        <form id="frm1" action="/action_page.php">
+            Enter expression: <input type="text" name="expression"><br><br>
+            <input type="button" onclick="myFunction()" value="Submit">
+        </form>
+        <p id="result">Answer: </p>
+
+        <script>
+            function myFunction() {
+                let x = document.getElementById("frm1");
+                let text = x.elements[0].value.replace(/\s+/g, '');
+                document.getElementById("result").innerHTML = text;
+
+                try {
+                    //infix to postfix
+                    let postfix = convert(text);
+
+                    //output value
+                    let answer = evaluate(postfix).toString();
+
+                    document.getElementById("result").innerHTML = "Answer: " + answer;
+                } catch (e) {
+                    //error output
+                    document.getElementById("result").innerHTML = "Invalid Input";
+                }
             }
-        }
-    </script>
-</div>
-
-<br><br>
-
-<!-- PRIMES -->
-<div class="w3-container" id="primes">
-    <h2 class="w3-center">MIT PRIMES Research</h2>
-    <p>PRIMES Application: <a href="https://github.com/matthew-ding/primes-application"
-                              target="_blank"><i class="fa fa-github"></i> Github Link </a></p>
-    <p>PRIMES 2020 Project: <a href="https://github.com/matthew-ding/primes-project-2020"
-                               target="_blank"><i class="fa fa-github"></i> Github Link </a>
-        <a href="https://arxiv.org/abs/2010.05098"
-           target="_blank"><i class="fa fa-file"></i> ArXiv Paper Link </a></p>
-    <p>PRIMES 2021 Project: <a href="https://github.com/matthew-ding/primes-project-2021"
-                               target="_blank"><i class="fa fa-github"></i> Github Link </a>
-        <a href="https://arxiv.org/abs/2106.14312"
-           target="_blank"><i class="fa fa-file"></i> ArXiv Paper Link </a>
-        <a href="https://math.mit.edu/research/highschool/primes/materials/2021/Ding.pdf"
-           target="_blank"><i class="fa fa-file"></i> PRIMES Paper Link </a></p>
-    <div class="w3-card-4">
-        <img src="blurb.png" alt="Paper blurb">
-        <div class="w3-container w3-center">
-            <i style="font-size:10px" >From the MIT PRIMES website
-                (<a href="https://math.mit.edu/research/highschool/primes/papers.php">https://math.mit.edu/research/highschool/primes/papers.php</a>)</i>
-        </div>
+        </script>
     </div>
+    <br><br>
 
 
-</div>
-<br><br>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-center w3-black w3-xlarge">
-    <a href="mailto:matthewding@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
-    <a href="https://www.facebook.com/matthewding2/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-    <a href="https://twitter.com/MatthewDing1" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.instagram.com/matthew_ding1/" target="_blank"><i class="fa fa-instagram"></i></a>
-    <a href="https://github.com/matthew-ding" target="_blank"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/matthew-ding-247151216" target="_blank"><i class="fa fa-linkedin"></i></a>
-</footer>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-center w3-black w3-xlarge">
+        <a href="mailto:matthewding@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.facebook.com/matthewding2/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://twitter.com/MatthewDing1" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/matthew_ding1/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/matthew-ding" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/matthew-ding-247151216" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <br>
+      <p style="font-size: 10px">Copyright &copy; 2021, Matthew Ding. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
