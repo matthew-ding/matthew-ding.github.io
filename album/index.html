@@ -12,28 +12,97 @@
 
     <style>
         div {
-            max-width: 500px;
             margin: auto;
         }
+
         img {
             max-width: 100%;
             max-height: 100%;
             Padding: 10px 10px 0px 10px;
         }
+
+        /* The side navigation menu */
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background: #333;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        header, footer {
+            width: 100%;
+            background: #333;
+            color: #fff;
+        }
+
+        /* Sidebar links */
+        .sidebar a {
+            background: #333;
+            display: block;
+            color: #fff;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        /* Links on mouse-over */
+        .sidebar a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+        div.content {
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: auto;
+        }
+
+        /* On screens that are less than 700px wide, make the sidebar into a topbar */
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .sidebar a {
+                float: left;
+            }
+
+            div.content {
+                margin-left: 0;
+            }
+        }
+
+        /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+
+        .w3-card-4 {
+            max-width: 500px;
+        }
     </style>
 </head>
 
 <body>
-    <!-- Header -->
-    <nav class="w3-bar w3-black">
-        <a href="../" class="w3-button w3-bar-item">Home</a>
-        <a href="../projects/" class="w3-button w3-bar-item">Projects</a>
-        <a href="../blog/" class="w3-button w3-bar-item">Blog</a>
-        <a href="../album/" class="w3-button w3-bar-item">Photo Album</a>
-        <a href="../about/" class="w3-button w3-bar-item">About</a>
-    </nav>
+<!-- Header -->
+<nav class="sidebar">
+    <a href="../" class="w3-button w3-bar-item">Home</a>
+    <a href="../projects/" class="w3-button w3-bar-item">Projects</a>
+    <a href="../blog/" class="w3-button w3-bar-item">Blog</a>
+    <a class="w3-gray w3-center" href="../album/" class="w3-button w3-bar-item">Photo Album</a>
+    <a href="../about/" class="w3-button w3-bar-item">About</a>
+</nav>
 
-    <header class = "w3-container w3-blue">
+<div class="content">
+    <header class="w3-container w3-padding-8 w3-center w3-xlarge">
         <h1 class="w3-center">Photo Album</h1>
     </header>
 
@@ -80,15 +149,16 @@
     <br><br>
 
     <!-- Footer -->
-    <footer class="w3-container w3-padding-16 w3-center w3-black w3-xlarge">
+    <footer class="w3-container w3-padding-16 w3-center w3-xlarge">
         <a href="mailto:matthewding@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
         <a href="https://www.facebook.com/matthewding2/" target="_blank"><i class="fa fa-facebook-official"></i></a>
         <a href="https://twitter.com/MatthewDing1" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://www.instagram.com/matthew_ding1/" target="_blank"><i class="fa fa-instagram"></i></a>
         <a href="https://github.com/matthew-ding" target="_blank"><i class="fa fa-github"></i></a>
         <a href="https://www.linkedin.com/in/matthew-ding-247151216" target="_blank"><i class="fa fa-linkedin"></i></a>
-      <br>
-      <p style="font-size: 10px">Copyright &copy; 2021, Matthew Ding. All Rights Reserved.</p>
+        <br>
+        <p style="font-size: 10px">Copyright &copy; 2021, Matthew Ding. All Rights Reserved.</p>
     </footer>
+</div>
 </body>
 </html>
