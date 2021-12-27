@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="https://www.w3schools.com/w3css/3/w3.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matthew Ding - Research</title>
+    <link href="../favicon.ico" rel="icon">
+
+    <!-- CSS -->
+    <style>
+        body, header, h1, h2, h3, h4 {
+          font-family: Georgia;
+        }
+
+        div {
+            margin: auto;
+            text-align: center;
+        }
+
+        /* The side navigation menu */
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background: #333;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        header, footer {
+            width: 100%;
+            background: #333;
+            color: #fff;
+        }
+
+        /* Sidebar links */
+        .sidebar a {
+            background: #333;
+            display: block;
+            color: #fff;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        /* Links on mouse-over */
+        .sidebar a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+        div.content {
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: auto;
+        }
+
+        /* On screens that are less than 700px wide, make the sidebar into a topbar */
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .sidebar a {
+                float: left;
+            }
+
+            div.content {
+                margin-left: 0;
+            }
+        }
+
+        /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+
+        .w3-container {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+
+<body>
+<!-- Header -->
+<nav class="sidebar">
+    <a class="w3-button w3-bar-item" href="../">Home</a>
+    <a class="w3-button w3-bar-item" href="../projects/">Projects</a>
+    <a class="w3-gray w3-center" class="w3-button w3-bar-item" href="../research/">Research</a>
+    <a class="w3-button w3-bar-item" href="../album/">Album</a>
+    <a class="w3-button w3-bar-item" href="../about/">About</a>
+</nav>
+
+<div class="content">
+    <header class="w3-container w3-padding-8 w3-center w3-xlarge" style="max-width:none">
+        <h1 class="w3-center">Research</h1>
+    </header>
+
+        <!-- Astro -->
+        <div class="w3-container" id="astro">
+            <h2 class="w3-center">Taurus Survey</h2>
+            <p>Advisor: Dr. Marta Bryan (UC Berkeley)</p>
+            <p>More info coming soon.</p>
+        </div>
+        <br><br>
+
+
+        <!-- PRIMES -->
+        <div class="w3-container" id="primes">
+            <h2 class="w3-center">MIT PRIMES</h2>
+            <p>Advisor: Hanshen Xiao (MIT)</p>
+            <p>
+            Presented at <a href="https://math.mit.edu/research/highschool/primes/conference/"
+                            target="_blank">MIT PRIMES 2021 Conference</a> and
+            <a href="https://iscc2021.unipi.gr/" target="_blank">2021 IEEE Symposium on Computers and Communications</a><br>
+                <a href="https://ieeexplore.ieee.org/document/9631546"
+               target="_blank"><i class="fa fa-file">&nbsp;</i>IEEE Paper</a>&nbsp;
+            <a href="https://arxiv.org/abs/2106.14312"
+               target="_blank"><i class="fa fa-file">&nbsp;</i>ArXiv Paper</a>&nbsp;
+            <a href="https://math.mit.edu/research/highschool/primes/materials/2021/Ding.pdf"
+               target="_blank"><i class="fa fa-file">&nbsp;</i>PRIMES Paper</a>&nbsp;
+            <a href="https://github.com/matthew-ding/primes-project-2021"
+                      target="_blank"><i class="fa fa-github">&nbsp;</i>Github</a>&nbsp;</p>
+
+    
+            <!-- Picture -->
+            <div class="w3-card-4" style="max-width: 600px; margin: auto">
+                <img alt="Paper blurb" src="blurb.png">
+                <div class="w3-container w3-center">
+                    <p style="font-size:10px; font-style:italic">From the MIT PRIMES website<br>
+                        (<a href="https://math.mit.edu/research/highschool/primes/papers.php"
+                        >https://math.mit.edu/research/highschool/primes/papers.php</a>)</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-center w3-xlarge" style="max-width:none">
+        <a href="mailto:matthewding@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.facebook.com/matthewding2/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://twitter.com/MatthewDing1" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/matthew_ding1/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/matthew-ding" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/matthew-ding-247151216" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <br>
+        <p style="font-size: 10px">Copyright &copy; 2021, Matthew Ding. All Rights Reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
