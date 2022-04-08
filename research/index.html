@@ -37,6 +37,31 @@
             color: #fff;
         }
 
+        #toc_container {
+            background: #f9f9f9 none repeat scroll 0 0;
+            border: 1px solid #aaa;
+            display: table;
+            font-size: 95%;
+            margin: auto;
+            padding: 20px;
+            width: auto;
+        }
+
+        #toc_container li {
+            padding: 5px 10px !important;
+        }
+
+        .toc_title {
+            font-weight: 700;
+            text-align: center;
+        }
+
+        #toc_container li, #toc_container ul, #toc_container ul li {
+            list-style: -moz-ethiopic-numeric !important;
+            text-align: justify;
+
+        }
+
         /* Sidebar links */
         .sidebar a {
             background: #333;
@@ -106,11 +131,40 @@
         <h1 class="w3-center">Research</h1>
     </header>
 
+    <!-- Table of Contents -->
+    <div class="w3-card" id="toc_container">
+        <p class="toc_title">Research List</p>
+        <ul class="toc_list">
+            <li><a href="#neu">State Estimation</a></li>
+            <li><a href="#astro">Taurus Survey</a></li>
+            <li><a href="#primes">MIT PRIMES</a></li>
+        </ul>
+    </div>
+    <br><br>
+
+    <!-- NEU CS -->
+    <div class="w3-container" id="neu">
+        <h2 class="w3-center">State Estimation Project</h2>
+        <p>Advisor: Prof. Lili Su (Northeastern CS)</p>
+        <p>Dates: May 2022 - Present</p>
+        <p>More Info Coming Soon</p>
+    </div>
+    <br><br>
+
         <!-- Astro -->
         <div class="w3-container" id="astro">
-            <h2 class="w3-center">Taurus Survey</h2>
-            <p>Advisor: Dr. Marta Bryan (UC Berkeley)</p>
-            <p>More info coming soon.</p>
+            <h2 class="w3-center">Searching For Planets in Their Infancy: A Survey of the Taurus Star-Forming Region</h2>
+            <p>Advisor: Dr. Marta Bryan (UC Berkeley Astronomy)</p>
+            <p>Dates: September 2021 - Present</p>
+            <p>Presented at Berkeley Physics and Astronomy Undergraduate Research Scholars (BPURS) Poster Session</p>
+
+                <!-- Picture -->
+            <div class="w3-card-4" style="max-width: 600px; margin: auto">
+                <img alt="Astro Poster" src="poster.png" style="max-width: 600px">
+                <div class="w3-container w3-center">
+                    <p style="font-size:10px; font-style:italic">Research Poster<br></p>
+                </div>
+            </div>
         </div>
         <br><br>
 
@@ -118,7 +172,8 @@
         <!-- PRIMES -->
         <div class="w3-container" id="primes">
             <h2 class="w3-center">MIT PRIMES</h2>
-            <p>Advisor: Hanshen Xiao (MIT)</p>
+            <p>Advisor: Hanshen Xiao (MIT EECS)</p>
+            <p>Dates: January 2020 - July 2021</p>
             <p>
             Presented at <a href="https://math.mit.edu/research/highschool/primes/conference/"
                             target="_blank">MIT PRIMES 2021 Conference</a> and
@@ -135,7 +190,7 @@
     
             <!-- Picture -->
             <div class="w3-card-4" style="max-width: 600px; margin: auto">
-                <img alt="Paper blurb" src="blurb.png">
+                <img alt="PRIMES blurb" src="blurb.png">
                 <div class="w3-container w3-center">
                     <p style="font-size:10px; font-style:italic">From the MIT PRIMES website<br>
                         (<a href="https://math.mit.edu/research/highschool/primes/papers.php"
@@ -154,7 +209,7 @@
         <a href="https://github.com/matthew-ding" target="_blank"><i class="fa fa-github"></i></a>
         <a href="https://www.linkedin.com/in/matthew-ding-247151216" target="_blank"><i class="fa fa-linkedin"></i></a>
         <br>
-        <p style="font-size: 10px">Copyright &copy; 2021, Matthew Ding. All Rights Reserved.</p>
+        <p style="font-size: 10px">Copyright &copy; 2021 - <script>document.write(/\d{4}/.exec(Date())[0])</script>, Matthew Ding. All Rights Reserved.</p>
     </footer>
 </div>
 </body>
