@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Matthew Ding"
+title: "(Website Under Construction)"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,8 +9,16 @@ redirect_from:
 
 Hello everyone, my name is Matthew. I'm currently a junior undergraduate studying computer science and astrophysics at the University of California, Berkeley. Welcome to my website, where I will be uploading my research, different projects, cool pictures, and random things of interest. I hope you enjoy!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am broadly interested in theoretical computer science research. I am currently working on proving complexity results of quantum Hamiltonians. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Notes
+======
+**CS 270: Combinatorial Algorithms and Data Structures (UC Berkeley, Spring 2023)**
+
+Lecture 12 Notes: Linear probing with 5-wise independence, symmetrization, approximate membership

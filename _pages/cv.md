@@ -13,31 +13,37 @@ Education
 ======
 * B.A. in Computer Science and Astrophysics, University of California, Berkeley, 2025 (expected)
 
-Work experience
+Research Projects
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2024: Quantum Hamiltonian Complexity
+  * California Institute of Technology
+  * Duties includes:
+  * Supervisor: Robbie King, Eric Anschuetz, John Preskill
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2023 - Fall 2023: Streaming Algorithms
+  * University of California, Berkeley
+  * Duties included:
+  * Supervisor: Jelani Nelson, David Woodruff
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Fall 2022 - Fall 2023: Graph Algorithms
+  * Simons Institute for the Theory of Computing
+  * Duties included:
+  * Supervisor: Jason Li
+
+* Fall 2022 - Spring 2023: Distributed Consensus
+  * University of California, Berkeley
+  * Duties included:
+  * Supervisor: Neil Giridharan, Natacha Crooks
+
+* Summer 2022: Federated Learning
+  * Northeastern University
+  * Duties included:
+  * Supervisor: Lili Su
+
+* Fall 2021 - Spring 2022: Exoplanet Detection
+  * University of California, Berkeley
+  * Duties included:
+  * Supervisor: Marta Bryan
 
 Publications
 ======
@@ -45,18 +51,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

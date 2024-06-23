@@ -8,13 +8,4 @@ date: 2014-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+(Spring 2023 - Spring 2024) Graded homework and exams, helped run discussion sections, hosted office hours for class of 750 students
