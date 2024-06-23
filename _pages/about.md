@@ -22,3 +22,8 @@ Notes
 **CS 270: Combinatorial Algorithms and Data Structures (UC Berkeley, Spring 2023)**
 
 Lecture 12 Notes: Linear probing with 5-wise independence, symmetrization, approximate membership
+
+
+"We shall not cease from exploration. And the end of all our exploring will be to arrive where we started and know the place for the first time."
+
+—T.S. Eliot, from “Little Gidding”, Four Quartets (1943)

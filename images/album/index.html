@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="https://www.w3schools.com/w3css/3/w3.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matthew Ding - Album</title>
+    <link href="../favicon.ico" rel="icon">
+
+    <style>
+        body, header, h1, h2, h3, h4 {
+            font-family: Georgia;
+        }
+
+        div {
+            margin: auto;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            Padding: 10px 10px 0px 10px;
+        }
+
+        /* The side navigation menu */
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background: #333;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        header, footer {
+            width: 100%;
+            background: #333;
+            color: #fff;
+        }
+
+        /* Sidebar links */
+        .sidebar a {
+            background: #333;
+            display: block;
+            color: #fff;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        /* Links on mouse-over */
+        .sidebar a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+        div.content {
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: auto;
+        }
+
+        /* On screens that are less than 700px wide, make the sidebar into a topbar */
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .sidebar a {
+                float: left;
+            }
+
+            div.content {
+                margin-left: 0;
+            }
+        }
+
+        /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+
+        .w3-card-4 {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Header -->
+<nav class="sidebar">
+    <a class="w3-button w3-bar-item" href="../">Home</a>
+    <a class="w3-button w3-bar-item" href="../research/">Research</a>
+    <a class="w3-button w3-bar-item" href="../projects/">Projects</a>
+    <a class="w3-gray w3-center">Album</a>
+</nav>
+
+<div class="content">
+    <header class="w3-container w3-padding-8 w3-center w3-xlarge">
+        <h1 class="w3-center">Album</h1>
+    </header>
+    <div class="w3-card-4">
+        <img alt="CS 70 Hiking" src="hiking.JPG"><br>
+        <div class="w3-container w3-center">
+            <p>CS 70 Hiking Social, November 2023</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Climbing Picture" src="climbing.png"><br>
+        <div class="w3-container w3-center">
+            <p>Cal Climbing at Santa Cruz, October 2023</p>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="w3-card-4">
+        <img alt="Physics 5C Picture" src="physics5c.JPG"><br>
+        <div class="w3-container w3-center">
+            <p>Physics 5C Class, May 2023</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Santa Cruz Picture" src="santa_cruz.JPG"><br>
+        <div class="w3-container w3-center">
+            <p>Santa Cruz, February 2023</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Boston Common Winter" src="winter_commons.JPG"><br>
+        <div class="w3-container w3-center">
+            <p>Boston Common, December 2022</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="White Mountains Picture" src="white_mountains.jpg"><br>
+        <div class="w3-container w3-center">
+            <p>White Mountains, July 2022</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Fall 2021 1" src="fall2021_1.png"><br>
+        <img alt="Fall 2021 2" src="fall2021_2.png"><br>
+        <img alt="Fall 2021 3" src="fall2021_3.png"><br>
+        <img alt="Fall 2021 4" src="fall2021_4.png"><br>
+        <img alt="Fall 2021 5" src="fall2021_5.png"><br>
+        <img alt="Fall 2021 6" src="fall2021_6.JPG"><br>
+        <div class="w3-container w3-center">
+            <p>UC Berkeley, Fall 2021 Semester</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Yosemite" src="yosemite.png"><br>
+        <div class="w3-container w3-center">
+            <p>Yosemite National Park, CA</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Providence 1" src="providence1.png"><br>
+        <img alt="Providence 2" src="providence2.png"><br>
+        <div class="w3-container w3-center">
+            <p>Providence, RI</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Fireworks 1" src="fireworks1.jpeg"><br>
+        <img alt="Fireworks 2" src="fireworks2.jpeg"><br>
+        <img alt="Fireworks 3" src="fireworks3.jpeg">
+        <div class="w3-container w3-center">
+            <p>July 4th Fireworks, Boston Common</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Skyline" src="skyline.jpg">
+        <div class="w3-container w3-center">
+            <p>Boston Night Skyline</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="w3-card-4">
+        <img alt="Graduation" src="graduation.jpg">
+        <div class="w3-container w3-center">
+            <p>Graduation Photo</p>
+        </div>
+    </div>
+    <br><br>
+    <!-- Picture of me -->
+    <div class="w3-card-4">
+        <img alt="Me at campanile" src="campanile.jpg">
+        <div class="w3-container w3-center">
+            <p>Me in front of Sather Tower, UC Berkeley</p>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-center w3-xlarge">
+        <a href="https://www.facebook.com/matthewding2/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://twitter.com/MatthewDing1" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/matthew_ding1/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://github.com/matthew-ding" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/matthew-ding-247151216" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <br>
+        <p style="font-size: 10px">Copyright &copy; 2021 -
+            <script>document.write(/\d{4}/.exec(Date())[0])</script>
+            , Matthew Ding. All Rights Reserved.
+        </p>
+    </footer>
+</div>
+</body>
+</html>
