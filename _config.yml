@@ -25,7 +25,7 @@ author:
   name             : "Matthew Ding"
   pronouns         : "he/him"
   bio              : "Undergraduate CS Researcher at UC Berkeley"
-  # location         : "Earth"
+  location         : # "Earth"
   employer         : "University of California, Berkeley"
   uri              : # URL
   email            : "matthewding@berkeley.edu"
