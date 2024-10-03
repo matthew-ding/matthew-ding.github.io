@@ -11,10 +11,20 @@ Hello everyone, my name is Matthew. I'm currently a senior-year undergraduate st
 
 I am broadly interested in theoretical computer science research. I am currently working on proving complexity results of quantum Hamiltonians. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms.
 
-Publications
+Manuscripts
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.venue == "(In submission)" %}
+        {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
+Publications
+======
+  <ul>{% for post in site.publications reversed%}
+    {% if post.venue != "(In submission)" %}
+        {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
 
 
