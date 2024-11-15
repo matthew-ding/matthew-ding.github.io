@@ -7,7 +7,7 @@ We propose two consensus + innovation algorithms for the state estimation and tr
 venue: "(In submission)"
 slidesurl: #
 paperurl: 'https://arxiv.org/abs/2306.17267'
-citation: "Connor Mclaughlin, Matthew Ding, Denis Erdogmus, and Lili Su. IEEE Transactions on Automatic Control (TAC, Conditional Acceptance)."
+citation: "Connor Mclaughlin, Matthew Ding, Denis Erdogmus, and Lili Su. IEEE Transactions on Automatic Control (TAC). Conditional Acceptance."
 ---
 
 Fully distributed estimation and tracking solutions to large-scale multi-agent networks suffer slow convergence and are vulnerable to network failures. In this paper, we aim to speed up the convergence and enhance the resilience of state estimation and tracking using a simple hierarchical system architecture wherein agents are clusters into smaller networks, and a parameter server exists to aid the information exchanges among networks. The information exchange among networks is expensive and occurs only once in a while.
