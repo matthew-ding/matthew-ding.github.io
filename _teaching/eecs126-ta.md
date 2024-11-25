@@ -1,12 +1,12 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "CS 70 (Discrete Mathematics and Probability Theory)"
+type: "EECS 126 (Probability and Random Processes)"
 permalink: /teaching/cs70-ta
 venue: "University of California, Berkeley"
-date: 2024-09-01
+date: 2025-01-01
 location: "Berkeley, USA"
 ---
-Fall 2024
+Spring 2025
 
 Taught biweekly discussion section of 25 students, proctored exams, hosted office hours.
