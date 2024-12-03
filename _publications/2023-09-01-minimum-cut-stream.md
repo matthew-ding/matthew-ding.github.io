@@ -5,7 +5,7 @@ permalink: /publication/minimum-cut-stream
 date: 2025-01-07
 venue: "Innovations in Theoretical Computer Science (ITCS)"
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: # 'https://dl.acm.org/doi/10.1145/3583668.3594572'
+paperurl: 'https://arxiv.org/abs/2412.01143'
 citation: "Matthew Ding, Alexandro Garces, Jason Li, Honghao Lin, Jelani Nelson, Vihan Shah, and David P. Woodruff. Innovations in Theoretical Computer Science (ITCS 2025)."
 ---
 
