@@ -23,6 +23,8 @@ Manuscripts
 
 Publications
 ======
+[![Video Link](https://img.youtube.com/vi/yjf_8JHsbe8/0.jpg)](https://youtu.be/yjf_8JHsbe8)
+
   <ul>{% for post in site.publications reversed%}
     {% if post.venue != "(In submission)" %}
         {% include archive-single-cv.html %}
