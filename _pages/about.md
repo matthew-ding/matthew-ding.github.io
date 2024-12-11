@@ -11,6 +11,8 @@ Hello everyone, my name is Matthew. I'm currently a senior-year undergraduate st
 
 I am broadly interested in theoretical computer science research. I am currently working on proving complexity results of quantum Hamiltonians. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms.
 
+I'm currently applying for **Ph.D. programs for Fall 2025 entry!** I'm happy to chat with anybody, feel free to reach out!
+
 
 Manuscripts
 ======
