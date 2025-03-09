@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello everyone, my name is Matthew. I'm currently a senior-year undergraduate studying computer science and astrophysics at the University of California, Berkeley. Welcome to my website!
+Hello everyone, my name is Matthew. I'm currently a senior-year undergraduate studying computer science and astrophysics at the [University of California, Berkeley](https://www.berkeley.edu/). Welcome to my website!
 
-I am broadly interested in theoretical computer science research. I am currently working on proving complexity results of quantum Hamiltonians. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms.
+I am broadly interested in theoretical computer science and quantum information theory. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms.
 
-I'm currently applying for **Ph.D. programs for Fall 2025 entry!** I'm happy to chat with anybody, feel free to reach out!
+I will be starting my Ph.D. in computer science at [Stanford University](https://www.stanford.edu/) starting in Fall 2025!
 
 
 Manuscripts
