@@ -1,0 +1,20 @@
+current directory: /Users/matthewding/workspace/matthew-ding.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/matthewding/workspace/matthew-ding.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250609-4999-v4bdx1 sitelibdir\=./.gem.20250609-4999-v4bdx1 clean
+
+current directory: /Users/matthewding/workspace/matthew-ding.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250609-4999-v4bdx1 sitelibdir\=./.gem.20250609-4999-v4bdx1
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/matthewding/workspace/matthew-ding.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250609-4999-v4bdx1 sitelibdir\=./.gem.20250609-4999-v4bdx1 install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20250609-4999-v4bdx1
+
+current directory: /Users/matthewding/workspace/matthew-ding.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250609-4999-v4bdx1 sitelibdir\=./.gem.20250609-4999-v4bdx1 clean

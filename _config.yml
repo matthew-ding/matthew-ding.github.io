@@ -24,11 +24,11 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Matthew Ding"
   pronouns         : "he/him"
-  bio              : "Undergraduate CS Researcher at UC Berkeley"
+  bio              : "PhD Student at Stanford"
   location         : # "Earth"
-  employer         : "University of California, Berkeley"
+  employer         : "Stanford University"
   uri              : # URL
-  email            : "matthewding@berkeley.edu"
+  email            : "mcding@stanford.edu"
 
   # Academic websites
   arxiv            : "https://arxiv.org/a/ding_m_1.html"
@@ -49,15 +49,15 @@ author:
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
-  facebook         : "matthewding2"
+  facebook         : #
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "matthew_ding1"
+  instagram        : #
   lastfm           : # Username
-  linkedin         : "matthew-ding-247151216"
+  linkedin         : #
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

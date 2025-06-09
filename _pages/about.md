@@ -43,14 +43,14 @@ Teaching
 Notes
 ======
 <ul>
-<b>CS 294-092: Analysis of Boolean Functions (UC Berkeley, Spring 2025)</b>
-
+<b>CS 294-92: Analysis of Boolean Functions (UC Berkeley, Spring 2025)</b>
+<br/>
 <a href="http://matthew-ding.github.io/files/aobf_notes.pdf">Lecture 24 Notes: The Sensitivity Conjecture</a>
 </ul>
 
 <ul>
 <b>CS 270: Combinatorial Algorithms and Data Structures (UC Berkeley, Spring 2023)</b>
-
+<br/>
 <a href="http://matthew-ding.github.io/files/lec12.pdf">Lecture 12 Notes: Linear probing with 5-wise independence, symmetrization, approximate membership</a>
 </ul>
 
