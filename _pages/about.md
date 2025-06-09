@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello everyone, my name is Matthew. I'm currently a senior-year undergraduate studying computer science and astrophysics at the [University of California, Berkeley](https://www.berkeley.edu/). Welcome to my website!
+Hello everyone, my name is Matthew. I am an incoming Ph.D. student in computer science at [Stanford University](https://www.stanford.edu/) starting in Fall 2025. Welcome to my website!
 
-I am broadly interested in theoretical computer science and quantum information theory. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms.
-
-I will be starting my Ph.D. in computer science at [Stanford University](https://www.stanford.edu/) starting in Fall 2025!
+I am broadly interested in theoretical computer science and quantum information theory. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms. I received my B.A. in computer science and astrophysics at the [University of California, Berkeley](https://www.berkeley.edu/).
 
 
 Manuscripts
@@ -44,6 +42,12 @@ Teaching
 
 Notes
 ======
+<ul>
+<b>CS 294-092: Analysis of Boolean Functions (UC Berkeley, Spring 2025)</b>
+
+<a href="http://matthew-ding.github.io/files/aobf_notes.pdf">Lecture 24 Notes: The Sensitivity Conjecture</a>
+</ul>
+
 <ul>
 <b>CS 270: Combinatorial Algorithms and Data Structures (UC Berkeley, Spring 2023)</b>
 
