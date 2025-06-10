@@ -9,7 +9,9 @@ redirect_from:
 
 Hello everyone, my name is Matthew. I am an incoming Ph.D. student in computer science at [Stanford University](https://www.stanford.edu/) starting in Fall 2025. Welcome to my website!
 
-I am broadly interested in theoretical computer science and quantum information theory. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms. I received my B.A. in computer science and astrophysics at the [University of California, Berkeley](https://www.berkeley.edu/).
+I am broadly interested in theoretical computer science and quantum information theory. In the past I've worked on combinatorial graph algorithms, distributed protocols, and streaming algorithms. 
+
+I received my B.A. in computer science and astrophysics at the [University of California, Berkeley](https://www.berkeley.edu/). During my undergraduate years, I was fortunate to be advised by [Jason Li](https://q3r.github.io/), [Jelani Nelson](https://people.eecs.berkeley.edu/~minilek/), and [John Preskill](https://www.preskill.caltech.edu/), among many others.
 
 
 Manuscripts
@@ -23,8 +25,6 @@ Manuscripts
 
 Publications
 ======
-[![Video Link](https://img.youtube.com/vi/yjf_8JHsbe8/0.jpg)](https://youtu.be/yjf_8JHsbe8)
-
   <ul>{% for post in site.publications reversed%}
     {% if post.venue != "(In submission)" %}
         {% include archive-single-cv.html %}
